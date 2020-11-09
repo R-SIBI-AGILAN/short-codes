@@ -1,0 +1,11 @@
+# Other codes
+
+
+# code to print all the errors
+print(x for x in dir(locals()['__builtins__']) if x.__contains__('Error'))
+
+"""
+Join my discord for more codes like this!
+https://discord.gg/aGGeusZ
+
+"""
