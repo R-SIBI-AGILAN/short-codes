@@ -1,0 +1,14 @@
+# math
+
+# print even numbers until user's choice
+print(x for x in range(int(input('Enter the limit: '))) if x % 2 == 0)
+
+# or 
+print(x for x in range(0, int(input('Enter the limit: '), 2)))
+
+
+# print odd numbers until user's choice
+print(x for x in range(int(input('Enter the limit: '))) if x % 2 == 1)
+
+# or 
+print(x for x in range(1, int(input('Enter the limit: '), 2)))
